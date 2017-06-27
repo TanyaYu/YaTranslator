@@ -1,0 +1,17 @@
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\bin\Debug\YandxTransl.exe.config
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\bin\Debug\YandxTransl.exe
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\bin\Debug\YandxTransl.pdb
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\MainWindow.g.cs
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\App.g.cs
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl_MarkupCompile.cache
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl_MarkupCompile.lref
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\MainWindow.baml
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl.g.resources
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl.Properties.Resources.resources
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl.csproj.GenerateResource.Cache
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl.exe
+C:\Users\Tanya\Desktop\YandxTransl\YandxTransl\obj\Debug\YandxTransl.pdb
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\bin\Debug\YandxTransl.exe.config
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl.exe
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl.pdb
