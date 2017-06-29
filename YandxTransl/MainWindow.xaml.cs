@@ -24,5 +24,16 @@ namespace YandxTransl
         {
             InitializeComponent();
         }
+
+        private void box1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox box = sender as TextBox;
+            textBox.setText(box.Text);
+        }
+
+        private void textBox_SelectionChanged(object sender, EventArgs e)
+        {
+            box2.Text = textBox.getSelectedText();
+        }
     }
 }
