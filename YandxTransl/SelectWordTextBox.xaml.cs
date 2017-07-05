@@ -56,8 +56,7 @@ namespace YandxTransl
 
         protected void addWord(string word)
         {
-            TextBlock block = new TextBlock();
-            block.Text = word;
+            TextBlock block = new TextBlock() { Text = word };
             block.MouseDown += Block_MouseDown;
             panel.Children.Add(block);
         }
@@ -90,6 +89,19 @@ namespace YandxTransl
         {
             SelectionChanged.Invoke(this, e);
         }
-
+        
+        /// <summary>
+        /// When user clicks on edit button, EditText window opens 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void editTextBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            EditTextWindow window = new EditTextWindow(getText());
+            if (window.ShowDialog() == true)
+            {
+                setText(window.getText());
+            }
+        }
     }
 }

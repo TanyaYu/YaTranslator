@@ -59,11 +59,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EditTextWindow.xaml.cs">
+      <DependentUpon>EditTextWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SelectWordTextBox.xaml.cs">
       <DependentUpon>SelectWordTextBox.xaml</DependentUpon>
     </Compile>
     <Compile Include="WordUtils.cs" />
     <Compile Include="YandexTranslator.cs" />
+    <Page Include="EditTextWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -5,5 +5,21 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:YandxTransl"
              mc:Ignorable="d" >
-    <WrapPanel Name="panel" Orientation="Horizontal"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0" Grid.Column="0" Name="editTextBtn" Content="✎" 
+               HorizontalAlignment="Left" Cursor="Hand" 
+               MouseLeftButtonUp="editTextBtn_MouseLeftButtonUp" />
+        <ScrollViewer Grid.Row="1" Grid.Column="0"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <WrapPanel Name="panel" Orientation="Horizontal"/>
+        </ScrollViewer>
+    </Grid>
 </UserControl>

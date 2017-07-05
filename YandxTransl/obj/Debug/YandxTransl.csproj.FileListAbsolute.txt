@@ -34,3 +34,21 @@ C:\Users\Tanya Yuferova\Documents\Visual Studio 2015\Projects\YandxTransl\YandxT
 C:\Users\Tanya Yuferova\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\SelectWordTextBox.g.cs
 C:\Users\Tanya Yuferova\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\SelectWordTextBox.baml
 C:\Users\Tanya Yuferova\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\bin\Debug\YandxTransl.exe
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\bin\Debug\YandxTransl.pdb
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\MainWindow.g.cs
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\SelectWordTextBox.g.cs
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\App.g.cs
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl_MarkupCompile.cache
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl_MarkupCompile.lref
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\MainWindow.baml
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\SelectWordTextBox.baml
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl.g.resources
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl.Properties.Resources.resources
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\YandxTransl.csproj.GenerateResource.Cache
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\EditTextWindow.g.cs
+C:\Users\Tanya\Documents\Visual Studio 2015\Projects\YandxTransl\YandxTransl\obj\Debug\EditTextWindow.baml

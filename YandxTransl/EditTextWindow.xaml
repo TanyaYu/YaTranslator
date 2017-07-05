@@ -1,0 +1,28 @@
+﻿<Window x:Class="YandxTransl.EditTextWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YandxTransl"
+        mc:Ignorable="d"
+        Title="✎ Edit text" 
+        Height="200" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBox Grid.Row="0" Grid.Column="0" Name="textBox" 
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"
+                 TextWrapping="Wrap" BorderThickness="0"/>
+        <StackPanel Grid.Row="1" Grid.Column="0"
+                     Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name="okBtn" Content="OK" Margin="1" Click="okBtn_Click"/>
+            <Button Name="cancelBtn" Content="Cancel" Margin="1" Click="cancelBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

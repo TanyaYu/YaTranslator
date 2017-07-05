@@ -5,10 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YandxTransl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
-        <TextBox Name="box1" TextChanged="box1_TextChanged"/>
-        <TextBox Name="box2" IsReadOnly="True"/>
-        <local:SelectWordTextBox  x:Name="textBox" SelectionChanged="textBox_SelectionChanged"/>
-    </StackPanel>
+        Title="YandxTransl" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBox Grid.Row="0" Grid.Column="0" Name="box2" IsReadOnly="True"/>
+        <local:SelectWordTextBox Grid.Row="1" Grid.Column="0" x:Name="textBox" 
+                                 SelectionChanged="textBox_SelectionChanged"/>
+    </Grid>
 </Window>
