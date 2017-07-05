@@ -57,11 +57,11 @@ namespace YandxTransl
         protected void addWord(string word)
         {
             TextBlock block = new TextBlock() { Text = word };
-            block.MouseDown += Block_MouseDown;
+            block.MouseUp += Block_MouseUp;
             panel.Children.Add(block);
         }
 
-        protected void Block_MouseDown(object sender, MouseButtonEventArgs e)
+        protected void Block_MouseUp(object sender, MouseButtonEventArgs e)
         {
             TextBlock block = sender as TextBlock;
             block.Background = block.Background==null ? selectionColor : null;

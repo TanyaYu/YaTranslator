@@ -5,18 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YandxTransl"
         mc:Ignorable="d"
-        Title="YandxTransl" Height="350" Width="525">
+        Title="YandxTransl" Height="469" Width="749.125">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        
-        <TextBox Grid.Row="0" Grid.Column="0" Name="box2" IsReadOnly="True"/>
-        <local:SelectWordTextBox Grid.Row="1" Grid.Column="0" x:Name="textBox" 
+
+        <local:SelectWordTextBox Grid.Row="0" Grid.Column="0" x:Name="textBox" 
+                                 Grid.RowSpan="3"
                                  SelectionChanged="textBox_SelectionChanged"/>
+
+        <GridSplitter Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Width="5"
+                      VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <TextBox Name="exampleTB" TextWrapping="Wrap" 
+                     TextChanged="exampleTB_TextChanged"
+                     Height="80px"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+                <CheckBox Name="autoTranslationCB" Content="Auto" IsChecked="True"
+                          VerticalAlignment="Center"
+                          Margin="1"/>
+                <Button Name="translateBtn" Click="translateBtn_Click"
+                        Content="Translate" Margin="1" 
+                        VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            </StackPanel>
+            <TextBox Name="transaltionTB" TextWrapping="Wrap"
+                     Height="80px"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+                <Button Name="addExampleBtn" Click="addExampleBtn_Click"
+                    Content="Add" Margin="1"/>
+                <Button Name="ignoreExampleBtn" Click="ignoreExampleBtn_Click"
+                    Content="Ignore" Margin="1"/>
+            </StackPanel>
+        </StackPanel>
+
+        <GridSplitter Grid.Row="1" Grid.Column="2" Height="5"
+                      VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+
+        <ListBox Grid.Row="2" Grid.Column="2">
+
+        </ListBox>
     </Grid>
 </Window>

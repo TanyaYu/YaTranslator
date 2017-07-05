@@ -25,15 +25,35 @@ namespace YandxTransl
             InitializeComponent();
         }
 
-        private void box1_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            TextBox box = sender as TextBox;
-            textBox.setText(box.Text);
-        }
-
         private void textBox_SelectionChanged(object sender, EventArgs e)
         {
-            box2.Text = textBox.getSelectedText();
+            exampleTB.Text = textBox.getSelectedText();
+        }
+
+        private void translateBtn_Click(object sender, RoutedEventArgs e)
+        {
+            transaltionTB.Text = translate(exampleTB.Text);
+        }
+
+        private string translate(string line)
+        {
+            return line;
+        }
+
+        private void exampleTB_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if(autoTranslationCB.IsChecked==true)
+                transaltionTB.Text = translate(exampleTB.Text);
+        }
+
+        private void addExampleBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ignoreExampleBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
