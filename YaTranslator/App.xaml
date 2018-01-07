@@ -1,7 +1,7 @@
-﻿<Application x:Class="YandxTransl.App"
+﻿<Application x:Class="YaTranslator.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:YandxTransl"
+             xmlns:local="clr-namespace:YaTranslator"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

@@ -7,8 +7,8 @@
     <ProjectGuid>{259F4D4E-66ED-4670-BF6C-FF9C247EFFD1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YandxTransl</RootNamespace>
-    <AssemblyName>YandxTransl</AssemblyName>
+    <RootNamespace>YaTranslator</RootNamespace>
+    <AssemblyName>YaTranslator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

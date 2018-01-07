@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandxTransl", "YandxTransl\YandxTransl.csproj", "{259F4D4E-66ED-4670-BF6C-FF9C247EFFD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaTranslator", "YaTranslator\YaTranslator.csproj", "{259F4D4E-66ED-4670-BF6C-FF9C247EFFD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

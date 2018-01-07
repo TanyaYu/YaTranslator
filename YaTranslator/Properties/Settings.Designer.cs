@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace YandxTransl.Properties
+namespace YaTranslator.Properties
 {
 
 

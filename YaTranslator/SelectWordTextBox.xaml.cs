@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace YandxTransl
+namespace YaTranslator
 {
     /// <summary>
     /// Логика взаимодействия для SelectWordTextBox.xaml
